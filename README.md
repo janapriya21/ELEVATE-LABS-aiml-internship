@@ -6,7 +6,7 @@ AIML internship tasks and projects
 
 Loaded the Titanic dataset and explored its structure.
 
-Handled missing values in Age (median), Embarked (mode), and Fare (median).
+Handled missing values in Age (median), Embarked (mode).
 
 Encoded categorical variables like Sex and Embarked.
 
