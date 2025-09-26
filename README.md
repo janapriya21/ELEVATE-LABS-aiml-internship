@@ -70,3 +70,39 @@ Files Added:
   - Visualizations: histograms, boxplots, heatmaps, pairplots
   
   - Observational notes and inferences
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Task 4 – Classification with Logistic Regression
+
+Objective: Build a binary classifier using logistic regression and evaluate its performance with standard classification metrics.
+
+🔄 Steps Performed
+
+- Loaded the Breast Cancer Wisconsin dataset from scikit-learn.
+
+- Split data into train (80%) and test (20%) sets.
+
+- Standardized features using StandardScaler to ensure uniform scaling.
+
+- Trained a Logistic Regression model with scikit-learn (LogisticRegression).
+
+- Made predictions and calculated probabilities for the test set.
+
+- Evaluated the model using:
+
+  - Confusion Matrix
+
+  - Classification Report (Precision, Recall, F1-score)
+
+  - Accuracy Score
+
+  - ROC-AUC Score
+
+- Plotted the ROC Curve to visualize performance across thresholds.
+
+- Experimented with a custom decision threshold to analyze trade-offs between precision and recall.
+
+- Explained the role of the sigmoid function in mapping linear outputs into probabilities.
+
+
