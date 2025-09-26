@@ -1,10 +1,9 @@
 AIML internship tasks and projects
 
-Titanic Dataset Tasks:
-
 Overview:
 
-This repository contains the step-by-step solution for the AI/ML internship tasks focusing on data preprocessing and exploratory data analysis (EDA) using the Titanic dataset. All code, cleaned datasets, visualizations, and brief explanations are included.
+This repository consists of internship tasks completed as part of the Elevate Labs program.
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 📌 Task 1 – Titanic Data Preprocessing
 
@@ -75,7 +74,7 @@ ________________________________________________________________________________
 
 Task 4 – Classification with Logistic Regression
 
-Objective: Build a binary classifier using logistic regression and evaluate its performance with standard classification metrics.
+📌 Objective: Build a binary classifier using logistic regression and evaluate its performance with standard classification metrics.
 
 🔄 Steps Performed
 
