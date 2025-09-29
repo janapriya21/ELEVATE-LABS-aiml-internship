@@ -103,5 +103,36 @@ Task 4 – Classification with Logistic Regression
 - Experimented with a custom decision threshold to analyze trade-offs between precision and recall.
 
 - Explained the role of the sigmoid function in mapping linear outputs into probabilities.
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
+Task 5 – Decision Trees and Random Forests
 
+📌 Objective: Learn and implement tree-based models (Decision Tree and Random Forest) for classification, analyze overfitting, interpret feature importances, and evaluate performance using cross-validation.
+
+🔄 Steps Performed
+
+- Loaded the Heart Disease dataset and explored its structure.
+
+- Split the data into training (80%) and testing (20%) sets.
+
+- Trained a Decision Tree Classifier using scikit-learn.
+
+- Visualized the Decision Tree using plot_tree() to interpret splits.
+
+- Analyzed overfitting by comparing a full-depth tree with a depth-limited tree.
+
+- Trained a Random Forest Classifier with 100 trees and compared accuracy with Decision Tree.
+
+- Evaluated both models using:
+
+  - Accuracy Score
+
+  - Confusion Matrix
+
+  - Classification Report (Precision, Recall, F1-score)
+
+- Performed Cross-Validation to check consistency of Random Forest performance.
+
+- Plotted Feature Importances to interpret the most influential predictors.
+
+- Explained the difference between single tree vs ensemble (Random Forest) and their pros/cons.
