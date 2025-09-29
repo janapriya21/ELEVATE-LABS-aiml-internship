@@ -72,6 +72,42 @@ Files Added:
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
+📂 Task 3 – Linear Regression
+
+🎯 Objective: Understand how to implement Linear Regression models (simple & multiple), evaluate them with error metrics, visualize regression lines, and interpret coefficients to understand feature impact.
+
+🔄 Steps Performed
+
+- Loaded the House Price (Housing) dataset and explored its structure using head(), info(), and describe().
+
+- Preprocessed the dataset by:
+
+  - Separating features (area, bedrooms, bathrooms, stories, etc.) and target (price).
+
+  - Encoding categorical variables (mainroad, guestroom, basement, hotwaterheating, airconditioning, prefarea, furnishingstatus) using one-hot encoding.
+
+- Split the data into train (80%) and test (20%) sets using train_test_split.
+
+- Trained Linear Regression models:
+
+  - Multiple Regression with all features.
+
+  - Simple Regression with a single feature (area).
+
+- Evaluated the models using:
+
+  - Mean Absolute Error (MAE)
+
+  - Mean Squared Error (MSE)
+
+  - R² Score
+
+- Plotted the regression line (for simple regression: area vs price).
+
+- Interpreted model coefficients to understand how each feature influences house price.
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 Task 4 – Classification with Logistic Regression
 
 📌 Objective: Build a binary classifier using logistic regression and evaluate its performance with standard classification metrics.
