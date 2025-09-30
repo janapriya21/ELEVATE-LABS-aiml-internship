@@ -172,3 +172,38 @@ Task 5 – Decision Trees and Random Forests
 - Plotted Feature Importances to interpret the most influential predictors.
 
 - Explained the difference between single tree vs ensemble (Random Forest) and their pros/cons.
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Task 6 – K-Nearest Neighbors (KNN) Classification
+
+📌 Objective: Learn and implement the K-Nearest Neighbors algorithm for classification problems, experiment with different K values, evaluate performance, and visualize decision boundaries.
+
+🔄 Steps Performed
+
+- Loaded the Iris dataset (150 samples, 4 features, 3 classes).
+
+- Normalized features using StandardScaler to ensure fair distance-based calculations.
+
+- Split the data into training (80%) and testing (20%) sets.
+
+- Trained a KNeighborsClassifier using scikit-learn.
+
+- Experimented with different values of K (1, 3, 5, 7, 11, 15) and compared accuracy results.
+
+- Evaluated the model using:
+
+  - Accuracy Score
+
+  - Confusion Matrix
+
+  - Classification Report (Precision, Recall, F1-score)
+
+- Plotted an Accuracy vs K graph to identify the optimal K value.
+
+- Visualized decision boundaries (using two selected features) to understand how KNN classifies regions.
+
+- Explained the effect of K on bias-variance tradeoff and sensitivity to noisy data.
+
+
+
