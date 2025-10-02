@@ -205,5 +205,38 @@ Task 6 – K-Nearest Neighbors (KNN) Classification
 
 - Explained the effect of K on bias-variance tradeoff and sensitivity to noisy data.
 
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Task 7 – Support Vector Machines (SVM)
+
+📌 Objective: Understand and implement SVM models for linear and non-linear classification, tune hyperparameters, evaluate performance, and visualize decision boundaries.
+
+🔄 Steps Performed
+
+- Loaded the Breast Cancer dataset (binary classification problem).
+
+- Normalized features using StandardScaler for fair margin calculations.
+
+- Split the dataset into training (80%) and testing (20%) sets.
+
+- Trained an SVM with linear kernel and evaluated results.
+
+- Trained an SVM with RBF kernel and compared performance with linear SVM.
+
+- Evaluated models using:
+
+  = Accuracy Score
+
+  - Confusion Matrix
+
+  - Classification Report (Precision, Recall, F1-score)
+
+- Applied Cross-Validation to check performance consistency.
+
+- Tuned hyperparameters (C, gamma) using GridSearchCV.
+
+- Visualized decision boundaries using a 2D synthetic dataset.
+
+- Explained differences between linear vs non-linear kernels and the role of margin maximization.
 
 
