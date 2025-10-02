@@ -225,7 +225,7 @@ Task 7 – Support Vector Machines (SVM)
 
 - Evaluated models using:
 
-  = Accuracy Score
+  - Accuracy Score
 
   - Confusion Matrix
 
