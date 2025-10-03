@@ -239,4 +239,28 @@ Task 7 – Support Vector Machines (SVM)
 
 - Explained differences between linear vs non-linear kernels and the role of margin maximization.
 
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
+Task 8 – Clustering with K-Means
+
+📌 Objective: Perform unsupervised learning with K-Means clustering, determine the optimal number of clusters, evaluate cluster quality, and visualize results.
+
+🔄 Steps Performed
+
+- Loaded the Mall Customer Segmentation dataset and explored its structure.
+
+- Standardized the features (Annual Income and Spending Score) using StandardScaler for fair distance calculation.
+
+- Applied K-Means clustering and assigned cluster labels to each data point.
+
+- Used the Elbow Method (plotting inertia vs number of clusters) to determine the optimal value of K.
+
+- Evaluated cluster quality using the Silhouette Score.
+
+- Visualized clusters with color-coded scatter plots to show customer groups.
+
+= Applied PCA (2D projection) for dimensionality reduction and better visualization of clusters.
+
+- Interpreted the business meaning of clusters (e.g., low spenders, high-income high spenders, etc.).
+
+- Explained key clustering concepts: Elbow Method, Silhouette Score, and difference between clustering and classification.
