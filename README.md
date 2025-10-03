@@ -259,7 +259,7 @@ Task 8 – Clustering with K-Means
 
 - Visualized clusters with color-coded scatter plots to show customer groups.
 
-= Applied PCA (2D projection) for dimensionality reduction and better visualization of clusters.
+- Applied PCA (2D projection) for dimensionality reduction and better visualization of clusters.
 
 - Interpreted the business meaning of clusters (e.g., low spenders, high-income high spenders, etc.).
 
